@@ -1,7 +1,7 @@
 global toolbox_path
 
 % overwrite with current folder path
-toolbox_path = '/roconsys_toolbox_public/';
+toolbox_path = '.../roconsys_toolbox_public/';
 
 cd(toolbox_path)
 addpath(genpath(toolbox_path))
